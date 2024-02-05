@@ -1,6 +1,6 @@
 const http = require('http')
 const url= require('url')
-const PORT= porcess.env.PORT || 8000
+const PORT= 8000;
 const server= http.createServer((req,res)=>
 {
     const URL = url.parse(req.url)
